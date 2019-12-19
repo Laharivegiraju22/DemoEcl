@@ -39,4 +39,15 @@ public class MobileStoreController {
 			e.printStackTrace();
 		}
 	}
+
+	@ResponseBody
+	public void addProduct1(@RequestParam(name = "VIVO") String brandName,Product product)
+	{
+		try {
+			serviceImpl.addProduct(brandName,product);
+		} catch (ServiceException e) {
+			
+			e.printStackTrace();
+		}
+	}
 }
