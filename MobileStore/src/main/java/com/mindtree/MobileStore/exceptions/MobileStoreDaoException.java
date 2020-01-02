@@ -4,7 +4,7 @@ public class MobileStoreDaoException extends AppException {
 
 	public MobileStoreDaoException() {
 		super();
-	//exception....	
+	
 	}
 
 	public MobileStoreDaoException(String arg0, Throwable arg1) {
